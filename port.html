@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astesha Shukla Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    header, footer {
+      background-color: #ffdddd;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      color: #c44569;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #c44569;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Astesha Shukla</h1>
+    <p>Frontend Developer | AI Enthusiast | B.Tech IT</p>
+    <nav>
+      <a href="#summary">Summary</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#resume">Resume</a>
+    </nav>
+  </header>
+
+  <section id="summary">
+    <h2>Professional Summary</h2>
+    <p>I’m Astesha Shukla, a passionate Frontend Developer with experience in AI-integrated applications. I’ve built apps using Streamlit, FastAPI, MongoDB, LangChain, etc.</p>
+    <p>Some projects include an AI Sports Match Report Generator that converts cricket PDFs into articles. I love solving real-world problems with clean interfaces.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>College:</strong> SHRI RAMSWAROOP MEMORIAL COLLEGE OF ENGINEERING & MANAGEMENT, LUCKNOW</p>
+    <p><strong>Degree:</strong> B.Tech in Information Technology (2022–2026)</p>
+    <p><strong>Achievements:</strong></p>
+    <ul>
+      <li>🏆 Selected twice for Smart India Hackathon (SIH)</li>
+      <li>🥈 2nd position in CSI Ideathon</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Streamlit</li>
+      <li>Tools: Canva, Google Colab, Gemini API</li>
+    </ul>
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Problem-solving</li>
+      <li>Communication & Presentation</li>
+      <li>Creativity & Innovation</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <h4>AI Sports Match Report Generator</h4>
+    <p>Developed an AI-based tool to convert cricket scorecard PDFs into human-readable articles using RAG, LangChain, FAISS, and Streamlit.</p>
+  </section>
+
+  <!-- ✅ Certificates Section (Heading only) -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <li>Data science Tools-IBM </li>
+    <li>Ideathon Runner Up (2nd position-CSI)</li>
+    <li>Python-IBM</li>
+    <li>Big Data-IBM</li>
+    <li>Full stack-IBM</li>
+    <li>Cloud computing-IBM </li>
+    <li>Ai & chatgpt Tools-BE10x</li>
+    <li>Participated in the Hackurate(Hackathon)-BU(Greater Noida)</li>
+    
+
+  </section>
+
+  <!-- ✅ Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>You can view or download my resume using the button below:</p>
+    <a href="C:\Users\Astesha shukla\Desktop\My portfolio\ASTESHA LINKEDIN CV RESUME.pdf" class="btn" target="_blank">📄 View Resume</a>
+  </section>
+
+  <footer>
+    <p>
+      Connect with me on:
+      <a href="https://www.linkedin.com/in/astesha-shukla-827645255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+      <a href="mailto:asteshaa111@gmail.com">Email</a>
+    </p>
+  </footer>
+
+  <script>
+    // Dark mode toggle
+    document.addEventListener("DOMContentLoaded", () => {
+      const toggleBtn = document.createElement("button");
+      toggleBtn.textContent = "🌙 Toggle Dark Mode";
+      toggleBtn.style.position = "fixed";
+      toggleBtn.style.top = "20px";
+      toggleBtn.style.right = "20px";
+      toggleBtn.style.padding = "10px";
+      document.body.appendChild(toggleBtn);
+
+      toggleBtn.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+      });
+    });
+  </script>
+
+</body>
+</html>
+
